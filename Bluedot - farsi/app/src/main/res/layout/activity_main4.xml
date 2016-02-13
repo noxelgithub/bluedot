@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank e Gardeshgari"
+        android:textColor="#e5e500"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView12" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/bgardshg"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus congue neque.  sit amet orci euismod varius. Donec nec convallis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur congue finibus dolor convallis consectetur. Nulla accumsan congue tempus. Morbi tempus pulvinar molestie. Sed ultricies eget tellus et euismod. Donec vehicula lacus lectus, quis aliquam orci viverra eu. Praesent ultricies orci in egestas aliquet. Etiam ac velit justo."
+        android:id="@+id/textView11"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See our Website"
+        android:linksClickable="true"
+        android:textColor="#fff"
+        android:onClick="digi1"
+        android:background="@drawable/button"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+</RelativeLayout>

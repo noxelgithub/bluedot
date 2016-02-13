@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.neshat.bluedot.points"
+    android:background="@drawable/backblue"
+    android:id="@+id/coup">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Offer"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView6"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Points"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Aftab"
+        android:textSize="20sp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="80 pts"
+        android:textSize="20sp"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:background="#000"
+        android:text="collect"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:onClick="buy_lg"
+        android:layout_marginEnd="28dp"
+        android:id="@+id/buttoncollect1"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:onClick="backtopro"
+        android:background="#0000ff"
+        android:text="back to profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/name" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Collected Points"
+        android:onClick="showcollected"
+        android:background="#9fccff"
+        android:textColor="#fff"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/back"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Points"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_above="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

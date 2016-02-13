@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neshat.bluedot" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name=".GeofenceTransitionsIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Existedpoints"
+            android:label="@string/title_activity_existedpoints" >
+        </activity>
+        <activity
+            android:name=".MainActivity3"
+            android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name=".collectedpoints"
+            android:label="@string/title_activity_collectedpoints" >
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Pointcalculator"
+            android:label="@string/title_activity_pointcalculator" >
+        </activity>
+        <activity
+            android:name=".Startpage"
+            android:label="@string/title_activity_startpage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity4"
+            android:label="@string/title_activity_main4" >
+        </activity>
+        <activity
+            android:name=".PointCalculator"
+            android:label="@string/title_activity_point_calculator" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluedot</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">Sign in</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Sign up</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_app_controller">AppController</string>
+
+    <string name="title_activity_existedpoints">Existedpoints</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_buy_coupons">BuyCoupons</string>
+    <string name="title_activity_bisahab">bisahab</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_collectedpoints">collectedpoints</string>
+    <string name="title_activity_myprofile">Myprofile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_points">points</string>
+
+
+
+    <!-- Buttons strings -->
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="title_activity_geofence_error_messages">r</string>
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="title_activity_pointcalculator">Pointcalculator</string>
+    <string name="title_activity_session_manager">SessionManager</string>
+    <string name="title_activity_startpage">Startpage</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="title_activity_point_calculator">PointCalculator</string>
+
+
+    <string name="main_title">گلستان سعدی</string>
+    <string name="continue_label">نمایش شعر</string>
+    <string name="new_game_label">شعر جدید</string>
+    <string name="about_label">درباره برنامه</string>
+    <string name="exit_label">خروج</string>
+
+    <string name="about_title">About Golestan</string>
+<string name="about_text">
+این برنامه در مورد گلستان سعدی میباشد
+
+   </string>
+    <string name="test11"> گلستان</string>
+    <string name="Back">Back to main Form</string>
+    <string name="settings_label">تنظیم موزیک </string>
+    <string name="settings_font">تنظیم فونت برنامه </string>
+    <string name="settings_title">Golestan settings</string>
+
+    <string name="select_font">انتخاب فونت برنامه</string>
+</resources>
